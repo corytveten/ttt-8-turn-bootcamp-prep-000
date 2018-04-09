@@ -47,7 +47,7 @@ def turn(board)
   index = input_to_index(input)
   move(board, index)
   display_board(board)
-    if input >10
+    if input > 10
       turn(board)
     end
 end
