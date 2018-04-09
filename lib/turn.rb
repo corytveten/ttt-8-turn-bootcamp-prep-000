@@ -48,6 +48,5 @@ def turn(board)
     index = input_to_index(input)
     move(board, index)
     display_board(board)
-    if board >=9
       break
 end
