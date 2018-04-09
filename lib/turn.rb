@@ -49,4 +49,5 @@ def turn(board)
   display_board(board)
     if input >10
       turn(board)
+    end
 end
