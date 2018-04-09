@@ -48,10 +48,8 @@ def turn(board)
     index = input_to_index(input)
       if valid_move?(board, index)
         move(board, index)
-      else
-        turn(board) and return
-      end
     display_board(board)
       break
     end
+  end
 end
